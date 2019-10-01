@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TagengoExample</string>
+    <string-array name="lang_array">
+        <item>ja</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ko</item>
+        <item>id</item>
+        <item>my</item>
+        <item>th</item>
+        <item>vi</item>
+        <item>fr</item>
+        <item>es</item>
+    </string-array>
+    <string-array name="voice_array">
+        <item>female</item>
+        <item>male</item>
+        <item>unknown</item>
+    </string-array>
+</resources>
