@@ -1,4 +1,4 @@
-# mimi.tagengo.example.android.kt
+# mimi.tagengo.examples.android.kotlin
 
 ## Prepare
 
