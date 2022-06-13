@@ -46,97 +46,82 @@
                     android:hint="＜音声認識結果を表示します＞"
                     android:textSize="24sp" />
 
-                <LinearLayout
+                <TableLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="fill_horizontal"
-                    android:orientation="horizontal"
-                    android:paddingTop="3sp">
+                    android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/sr_label_in"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="input lang"
-                        android:textSize="18sp" />
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-                    <Spinner
-                        android:id="@+id/sr_in_lang"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/sr_label_in"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="input lang"
+                            android:textSize="18sp" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="fill_horizontal"
-                    android:orientation="horizontal"
-                    android:paddingTop="3sp">
+                        <Spinner
+                            android:id="@+id/sr_in_lang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="viewEnd" />
 
-                    <TextView
-                        android:id="@+id/option_label_in"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="response format"
-                        android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/option_label_in"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="response format"
+                            android:textSize="18sp" />
 
-                    <Spinner
-                        android:id="@+id/sr_in_response"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd" />
-                </LinearLayout>
+                        <Spinner
+                            android:id="@+id/sr_in_response"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="viewEnd" />
+                    </TableRow>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="fill_horizontal"
-                    android:orientation="horizontal"
-                    android:paddingTop="3sp">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-                    <TextView
-                        android:id="@+id/v2_progressive_label"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="progressive"
-                        android:textSize="18sp" />
+                        <TextView
+                            android:id="@+id/v2_progressive_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="progressive"
+                            android:textSize="18sp" />
 
-                    <Spinner
-                        android:id="@+id/sr_v2_progressive"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd" />
-                </LinearLayout>
+                        <Spinner
+                            android:id="@+id/sr_v2_progressive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="viewEnd" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="fill_horizontal"
-                    android:orientation="horizontal"
-                    android:paddingTop="3sp">
+                        <TextView
+                            android:id="@+id/v2_temporary_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="temporary"
+                            android:textSize="18sp" />
 
-                    <TextView
-                        android:id="@+id/v2_temporary_label"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="temporary"
-                        android:textSize="18sp" />
+                        <Spinner
+                            android:id="@+id/sr_v2_temporary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="viewEnd" />
 
-                    <Spinner
-                        android:id="@+id/sr_v2_temporary"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textAlignment="viewEnd" />
-                </LinearLayout>
+                    </TableRow>
+
+                </TableLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -12,6 +12,17 @@
         <item>fr</item>
         <item>es</item>
     </string-array>
+
+    <string-array name="sr_option_array">
+        <item>v1</item>
+        <item>v2</item>
+    </string-array>
+
+    <string-array name="v2_option_array">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
     <string-array name="voice_array">
         <item>female</item>
         <item>male</item>
